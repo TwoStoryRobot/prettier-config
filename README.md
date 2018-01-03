@@ -34,6 +34,6 @@ prettier as a hook for various actions (precommit, prepush, etc)
 
 ```json
 "scripts": {
-  "prettier": "prettier --write '**/*.js'"
+  "precommit": "prettier --write '**/*.js'"
 }
 ```
