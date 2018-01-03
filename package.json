@@ -1,0 +1,22 @@
+{
+  "name": "@twostoryrobot/prettier",
+  "version": "1.0.0",
+  "description": "prettier configuration for Two Story Robot",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "ln -fs $(pwd)/prettierrc $(pwd)/../../../.prettierrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwoStoryRobot/prettier-config.git"
+  },
+  "peerDependencies": {
+    "prettier": "^1.9.2"
+  },
+  "author": "Chad Fawcett <me@chadf.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwoStoryRobot/prettier-config/issues"
+  },
+  "homepage": "https://github.com/TwoStoryRobot/prettier-config#readme"
+}
