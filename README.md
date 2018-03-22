@@ -7,7 +7,7 @@ prettier config in this repo. It is recommended to add `.prettierrc` to your
 `.gitignore` so you don't accidentally commit the symlink.
 
 ```bash
-npm install @twostoryrobot/prettier
+npm install --save-dev @twostoryrobot/prettier
 ```
 
 Make sure to install the peer dependencies
