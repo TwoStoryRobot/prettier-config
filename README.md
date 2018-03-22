@@ -13,7 +13,7 @@ npm install @twostoryrobot/prettier
 Make sure to install the peer dependencies
 
 ```bash
-npm install prettier
+npm install --save-dev prettier
 ```
 
 ### Scripts
