@@ -2,12 +2,21 @@
 
 ## Usage
 
-Installing the package will make a symlink in the root of your project to the
-prettier config in this repo. It is recommended to add `.prettierrc` to your
-`.gitignore` so you don't accidentally commit the symlink.
-
 ```bash
 npm install --save-dev @twostoryrobot/prettier
+```
+
+Then you can source the config from your own `prettier.config.js`.
+
+```js
+module.exports = require('@twostoryrobot/prettier')
+```
+
+Or if you want to override the default at all.
+
+```js
+const prettierConfig = require('@twostoryrobot/prettier')
+module.exports = Object.assign({}, prettierConfig, { semi: true })
 ```
 
 Make sure to install the peer dependencies
