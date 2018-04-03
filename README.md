@@ -12,7 +12,8 @@ Then you can source the config from your own `prettier.config.js`.
 module.exports = require('@twostoryrobot/prettier')
 ```
 
-Or if you want to override the default at all.
+Or if you want to override the default at all (Note: please consider making a PR
+if you think the override will be useful for other projects).
 
 ```js
 const prettierConfig = require('@twostoryrobot/prettier')
