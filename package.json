@@ -1,6 +1,6 @@
 {
   "name": "@twostoryrobot/prettier",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "prettier configuration for Two Story Robot",
   "main": "prettier.config.js",
   "repository": {
