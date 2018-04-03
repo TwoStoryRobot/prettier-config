@@ -2,10 +2,7 @@
   "name": "@twostoryrobot/prettier",
   "version": "1.0.0",
   "description": "prettier configuration for Two Story Robot",
-  "main": "index.js",
-  "scripts": {
-    "postinstall": "ln -fs $(pwd)/prettierrc $(pwd)/../../../.prettierrc"
-  },
+  "main": "prettier.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TwoStoryRobot/prettier-config.git"
