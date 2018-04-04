@@ -43,7 +43,10 @@ If you install [husky](https://github.com/typicode/husky) you can invoke
 prettier as a hook for various actions (precommit, prepush, etc)
 
 ```json
-"scripts": {
-  "precommit": "prettier --write '**/*.js'"
+ "husky": {
+    "hooks": {
+      "pre-commit": "prettier --list-different '**/*.js'"
+    }
+  }
 }
 ```
