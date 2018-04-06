@@ -1,4 +1,9 @@
+[![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/prettier-config.svg)](https://www.npmjs.com/package/@twostoryrobot/pretier)
+
+
 # 2SR prettier
+
+Get pretty code with prettier the way Two Story Robot likes it.
 
 ## Usage
 
