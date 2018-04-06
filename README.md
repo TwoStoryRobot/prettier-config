@@ -1,4 +1,4 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/prettier-config.svg)](https://www.npmjs.com/package/@twostoryrobot/pretier)
+[![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/prettier-config.svg)](https://www.npmjs.com/package/@twostoryrobot/prettier)
 
 
 # 2SR prettier
