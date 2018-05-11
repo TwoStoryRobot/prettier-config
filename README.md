@@ -1,4 +1,4 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/prettier.svg)](https://www.npmjs.com/package/@twostoryrobot/prettier)
+[![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/prettier-config.svg)](https://www.npmjs.com/package/@twostoryrobot/prettier-config)
 
 
 # 2SR prettier
@@ -8,20 +8,20 @@ Get pretty code with prettier the way Two Story Robot likes it.
 ## Usage
 
 ```bash
-npm install --save-dev @twostoryrobot/prettier
+npm install --save-dev @twostoryrobot/prettier-config
 ```
 
 Then you can source the config from your own `prettier.config.js`.
 
 ```js
-module.exports = require('@twostoryrobot/prettier')
+module.exports = require('@twostoryrobot/prettier-config')
 ```
 
 Or if you want to override the default at all (Note: please consider making a PR
 if you think the override will be useful for other projects).
 
 ```js
-const prettierConfig = require('@twostoryrobot/prettier')
+const prettierConfig = require('@twostoryrobot/prettier-config')
 module.exports = Object.assign({}, prettierConfig, { semi: true })
 ```
 
