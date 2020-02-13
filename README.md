@@ -11,7 +11,7 @@ Get pretty code with prettier the way Two Story Robot likes it.
 npm install --save-dev @twostoryrobot/prettier-config
 ```
 
-Then you can source the config from your own `prettier.config.js`.
+Then you can source the config from your own `.prettierrc.js`.
 
 ```js
 module.exports = require('@twostoryrobot/prettier-config')
@@ -28,7 +28,7 @@ module.exports = Object.assign({}, prettierConfig, { semi: true })
 Make sure to install the peer dependencies
 
 ```bash
-npm install --save-dev prettier
+npx install-peerdeps --dev @twostoryrobot/prettier-config
 ```
 
 ### Scripts
