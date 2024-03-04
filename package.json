@@ -1,6 +1,6 @@
 {
   "name": "@twostoryrobot/prettier-config",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Prettier configuration for Two Story Robot",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/TwoStoryRobot/prettier-config.git"
   },
   "peerDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^3.2.5"
   },
   "author": "Chad Fawcett <me@chadf.ca>",
   "license": "MIT",
